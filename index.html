@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JSON Formatter & Validator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>JSON Formatter & Validator</h1>
+
+        <textarea id="jsonInput"
+            placeholder="Paste your JSON here..."></textarea>
+
+        <div class="buttons">
+            <button onclick="formatJSON()">Format</button>
+            <button onclick="minifyJSON()">Minify</button>
+            <button onclick="validateJSON()">Validate</button>
+            <button onclick="clearJSON()">Clear</button>
+        </div>
+
+        <p id="message"></p>
+
+        <h2>Output</h2>
+
+        <pre id="output"></pre>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
