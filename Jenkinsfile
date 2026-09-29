@@ -4,7 +4,8 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/Ramkishore08/JSON-Formatter-Validator.git'
+                git branch: 'main',
+                    url: 'https://github.com/Ramkishore08/JSON-Formatter-Validator.git'
             }
         }
 
